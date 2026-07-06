@@ -225,6 +225,13 @@
     .card-front {
       background: var(--color-card-front);
       color: var(--color-text);
+      border-top: 2px solid var(--color-primary-soft);
+    }
+
+    .card-front::before,
+    .card-front::after {
+      content: none;
+      display: none;
     }
 
     .card-back {
